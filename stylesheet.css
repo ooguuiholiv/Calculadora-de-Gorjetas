@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 5, 0, 0.8)),
+    url(./assets/bg.jpg) center center/cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 5, 0, 0.6));
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: max(2vw, 20px);
+}
+
+.calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+button {
+  width: 25vw;
+  height: 7vh;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: indianred;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  text-transform: uppercase;
+}
