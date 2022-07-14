@@ -80,3 +80,20 @@ p {
   font-size: medium;
   text-transform: uppercase;
 }
+
+#totalTip{
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#totalTip p{
+  color: var(--primary-color);
+  font-size: 1.2rem;
+
+}
